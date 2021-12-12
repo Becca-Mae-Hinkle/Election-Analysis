@@ -2,41 +2,52 @@
 
 Create an Election Analysis "PyPoll" with Python
 ## Overview of Project
-A Colorado Board of Elections has requested to complete the election audit of a recent local congressional election.
+After helping Seth and Tom submit the election audit results to the election commission, they have now requested 
+some additional data to complete the audit. They are asking us to:
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
-3. Calculatae the total number of votes each candidate received.
+3. Calculate the total number of votes each candidate received.
 3. Calculate the total number of votes each candidate received.
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote.
 
 ## Resources
 * Data Source: election_results.csv
-* Software: Python 3.7.6, Visual Studio Code 1.50.0
+* Software: Python 3.9.9, Visual Studio Code 1.63.0
 
-## Analysis and Challenges
+## Summary
+The analysis of the election show that:
 
-## Deliverable 1a: Candidate Results
-### Deliverable Requirements:
-1. Total Votes in the election are printed to the terminal.
-2. Each candidate’s total votes and percentage of votes are printed to the terminal.
-3. The winner of the election, winning vote count, and winning percentage of votes are printed to the terminal.
- 
-### Results with detail analysis:
-**1. Total Votes in the election**
+There were 369,711 total votes cast in the election.
 
+![Total Votes in the election](https://user-images.githubusercontent.com/94575416/145734064-20eaaa80-2af6-432a-b196-cd2bf8d37fc3.png)
 
-**2. Each candidate’s total votes and percentage of votes.**
+The candidate's were:
 
+    - Charles Casper Stockham
+    
+    - Diana DeGette
+    
+    - Raymon Anthony Doane
+    
+The candidate results were:
 
+    - Charles Casper Stockham received 23.0% of the vote with 85,213 votes.
+    
+    - Diana DeGette received 73.8% of the votes with 272,892 votes.
+    
+    - Raymon Anthony Doane received 3.1% of the votes with 11,606 votes.
 
-**3. The winner of the election, winning vote count, and winning percentage of votes.**
+![Each candidate's total votes and percentage of votes](https://user-images.githubusercontent.com/94575416/145734346-6e4b8b9b-8918-46c2-87a2-be5dad2b4cab.png)
 
+The winner of the election was:
 
+Diana DeGette won the election with 73.8% of the votes and 272,892 votes.
 
+![The winner of the election, winning vote count, and winning percentage of votes](https://user-images.githubusercontent.com/94575416/145734563-f1d196dd-e1da-4fe0-91e3-4cf7597bd787.png)
 
-### Deliverable 1b: County Results
+ ### Deliverable 1b: County Results
 ### Deliverable Requirements:
 1. Each county and its total vote count are printed to the terminal.
 2. Each county and its percentage of the total votes are printed to the terminal.
