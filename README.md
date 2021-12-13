@@ -87,9 +87,7 @@ challenges so we can grasp all that is being taught. We had raw data given to us
 ## Election-Audit Summary
 
 If we wanted to break down this data even further we could add more data points. We could modify and filter to show us how different neighborhoods or demographics voted. 
-We could also filter the data to include who men and women voted for. characteristics and the analysis can be broken down even further.
-
-This script can also be modified to determine patterns among the characteristics. We could test the percentage of voters by county against each candidate. This would allow us to see which candidate was the most popular within a county or geographical area.
+We could also filter the data to include who men and women voted for. This script can also be modified to determine patterns among the characteristics. We could test the percentage of voters by county against each candidate. This would allow us to see which candidate was the most popular within a county or geographical area.
 
   
     
