@@ -1,7 +1,9 @@
 # Election_Analysis
 
 Create an Election Analysis "PyPoll" with Python
+
 ## Overview of Project
+
 After helping Seth and Tom submit the election audit results to the election commission, they have now requested 
 some additional data to complete the audit. They are asking us to:
 
@@ -17,11 +19,8 @@ some additional data to complete the audit. They are asking us to:
 * Software: Python 3.9.9, Visual Studio Code 1.63.0
 
 ## Summary
-The analysis of the election show that:
 
 There were 369,711 total votes cast in the election.
-
-![Total Votes in the election](https://user-images.githubusercontent.com/94575416/145734064-20eaaa80-2af6-432a-b196-cd2bf8d37fc3.png)
 
 The candidate's were:
 
@@ -39,71 +38,58 @@ The candidate results were:
     
     - Raymon Anthony Doane received 3.1% of the votes with 11,606 votes.
 
-![Each candidate's total votes and percentage of votes](https://user-images.githubusercontent.com/94575416/145734346-6e4b8b9b-8918-46c2-87a2-be5dad2b4cab.png)
-
 The winner of the election was:
 
 Diana DeGette won the election with 73.8% of the votes and 272,892 votes.
 
-![The winner of the election, winning vote count, and winning percentage of votes](https://user-images.githubusercontent.com/94575416/145734563-f1d196dd-e1da-4fe0-91e3-4cf7597bd787.png)
-
- ### Deliverable 1b: County Results
-### Deliverable Requirements:
-1. Each county and its total vote count are printed to the terminal.
-2. Each county and its percentage of the total votes are printed to the terminal.
-3. The county with the largest number of voters is printed to the terminal.
-
-### Results with detail analysis:
-
-**1. Each county with its total vote count and percentage.**
 
 
+### Written Analysis of the Election Audit
 
 
-**3. The county with the largest number of voters is printed to the terminal.**
+### Overview of Election
+The purpose of the election audit analysis is to introduce us to Python and Visual Studio Code. We are building our foundation and layering our 
+challenges so we can grasp all that is being taught. We had raw data given to us and had to deliver a result.
 
-
-
-
-## Deliverable 2: Election Candidate Results Saved to a Text File
-### Candidate Results Deliverable Requirements:
-
-1. Total Votes in the election are saved in the `election_results.txt` file.
-2. Each candidate’s total votes and percentage of votes are saved in the `election_results.txt` file. 
-3. The winner of the election, winning vote count, and winning percentage of votes are saved in the `election_results.txt` file.
- 
-### Results with detail analysis:
-
-## Election County Results Saved to a Text File
-
-
-
-
-
-## Deliverable 3: Analysis of the Election Audit
 
 ### Election-Audit Results:
 
-> - **Total Votes Cast** in this congressional election was **369,711**
+    - How many votes were cast in this congressional election?
+    
+        There were 369,711 total votes cast in the election.
 
-> ***County Votes:***
+![Total Votes in the election](https://user-images.githubusercontent.com/94575416/145734064-20eaaa80-2af6-432a-b196-cd2bf8d37fc3.png)
+    
+    - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+        There were three counties in the precint we received the data from.
+            Jefferson County received 10.5% and 38,855 votes.
+            Denver received 82.8% and 306,055 votes.
+            Arapahoe received 6.7% and 24,801 votes.
+    
+![Each county with its total vote count and percentage  (2)](https://user-images.githubusercontent.com/94575416/145744681-10cbe810-7ff7-40d1-9229-b5b4914f317b.png)
 
-> - **Jefferson** county has `10.5%` total percentage with a total votes of **38,855**
-> - **Denver** county has the `82.8%` total percentage with a total votes of **306,055**
-> - **Arapahoe** county has `6.7%` total percentage with a total votes of **24,801**
+    
+    - Which county had the largest number of votes?
+        Denver had the larget number of votes with 306,055 votes.
+    
+![Each county with its total vote count and percentage  (3)](https://user-images.githubusercontent.com/94575416/145745273-95a8d293-5e66-4962-979f-03d73141d0db.png)
+    
+    - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+    
+![Each candidate's total votes and percentage of votes](https://user-images.githubusercontent.com/94575416/145745470-909b48a5-91ad-4c24-8dd2-7ef82101dba7.png)
 
-> ***County with Largest Number of Votes:***
+    
+    - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+    Diana DeGette won the election with 272,892 votes and 73.8% of the votes.
+    
+![The winner of the election, winning vote count, and winning percentage of votes](https://user-images.githubusercontent.com/94575416/145746006-30c94ce5-55a6-4689-a342-362ce2c81c7e.png)
 
-> - **Denver** county has the largest number total of **306,055**
-> - In addition, **Denver** county has the total votes percentage of `82.8%`  
-> - **Denver** county is the Largest County Turnout
+## Election-Audit Summary
 
-> ***Candidate Percentage of Votes:***
-> - **Charles Casper Stockham** candidate has `23.0%` total percentage with a total votes of **85,213**
-> - **Diana DeGette** candidate has the `73.8` total percentage with a total votes of **272,892**
-> - **Raymon Anthony Doane** candidate has `3.1%` total percentage with a total votes of **11,606**
+If we wanted to break down this data even further we could add more data points. We could modify and filter to show us how different neighborhoods or demographics voted. 
+We could also filter the data to include who men and women voted for. characteristics and the analysis can be broken down even further.
 
-> ***Election Results:***
-> - **Diana DeGette** won the election, with a total votes of **272,892**
-> - In addition, **Diana DeGette** has the total percentage votes of `73.8%
-> - **Diana DeGette** is the Winner!
+This script can also be modified to determine patterns among the characteristics. We could test the percentage of voters by county against each candidate. This would allow us to see which candidate was the most popular within a county or geographical area.
+
+  
+    
